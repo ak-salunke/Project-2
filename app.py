@@ -9,13 +9,6 @@ from pandas.api.types import (
 
 st.title("Filter your Airbnb Listings dataframe!")
 
-st.write(
-    """This app is based on this blog [here](https://blog.streamlit.io/auto-generate-a-dataframe-filtering-ui-in-streamlit-with-filter_dataframe/).
-    Can you think of ways to extend it with visuals?
-    """
-)
-
-
 def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     """
     Adds a UI on top of a dataframe to let viewers filter columns
@@ -92,6 +85,6 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
 
 df = pd.read_csv(
-    "WK2_Airbnb_Amsterdam_listings_proj_solution.csv", index_col=0
+    "Airbnb_Amsterdam_listings.csv", index_col=0
 )
 st.dataframe(filter_dataframe(df))
