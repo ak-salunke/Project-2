@@ -21,7 +21,7 @@ The app uses Streamlit for the user interface and pandas for dataframe manipulat
     streamlit run app.py
     ```
 
-2. **Upload Data**: Load the Airbnb listings dataframe from a CSV file. The example uses a file named `WK2_Airbnb_Amsterdam_listings_proj_solution.csv`.
+2. **Upload Data**: Load the Airbnb listings dataframe from a CSV file. The example uses a file named `Airbnb_Amsterdam_listings.csv`.
 
 3. **Interact with the UI**: Use the checkboxes and filters provided to refine the dataframe according to your requirements. 
 
@@ -36,7 +36,7 @@ pip install pandas streamlit
 ## Project Structure
 
 - `app.py`: Main application script containing the Streamlit UI and filtering logic.
-- `WK2_Airbnb_Amsterdam_listings_proj_solution.csv`: Example dataset used to demonstrate the filtering capabilities.
+- `Airbnb_Amsterdam_listings.csv`: Example dataset used to demonstrate the filtering capabilities.
 
 ## Extending the App
 
